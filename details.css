@@ -1,0 +1,70 @@
+body{
+margin: 0;
+}
+
+.output{
+    width: 100%;
+    padding : 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.poke-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 200px;
+    text-transform: capitalize;
+
+}
+
+.poke-types{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    width: 60%;
+
+}
+
+.navbar {
+    
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    color:#e70707e1;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+  }
+  
+    .navbar a { 
+        margin-left: 20px;
+        color: #e0d7d7;
+        text-decoration: none;
+        font-weight: bold;
+    }
+  
+  .nav-list {
+    color: white;
+    text-emphasis-color: white;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .nav_search {
+    justify-content: end;
+  }
+  
+
+  h1{
+    color: #920505;
+    text-align: center;
+  }

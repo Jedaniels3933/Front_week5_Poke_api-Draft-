@@ -1,0 +1,89 @@
+body {
+
+    background-color: #f0e009;
+    color: red;
+
+  }
+
+  
+
+  
+  .jumbotron {
+    background-color: rgba(0, 0, 0, 0.5); 
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    border: 1px solid black; 
+  }
+  
+  
+  .navbar {
+    /* align-items: end; */
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    color:#e70707e1;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+  }
+  
+  .navbar a { 
+    margin-left: 20px;
+    color: #e0d7d7;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .nav-list {
+    color: white;
+    text-emphasis-color: white;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+  
+
+  
+  .container {
+    color: #db0909;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 45px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  
+    /* background-color: rgba(0, 0, 0, 0.5);  */
+  }
+  
+
+  
+  .carousel {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .title {
+    text-align: center;
+    color: #920505;
+  }
+
+  
+
+  
+  .nav_search {
+    justify-content: end;
+  }
+  
+  .search-title{
+    background-color: rgba(221, 37, 37, 0.5);
+  }
+  
+  #search-button {
+    color: white;
+    background-color: rgb(173, 22, 52);
+  
+  }
+  
+  

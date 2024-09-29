@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pokeHome.css">
+    <title>Home and Search</title>
+</head>
+<br>
+<body>
+<div class="container">
+    <h1>Welcome to the Pokedex Online Search And Info Page </h1>
+
+    <nav class="navbar container-fluid rounded-3">
+        <div class="">
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a class="nav-link" href="pokeHome.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="details.html">Pokemon</a>
+                </li>
+                
+            </ul>
+        </div>   
+       
+    </nav>  
+    <div class="container rounded-3"><div class="jumbotron rounded-3">
+        <div class="title container">
+            <h1 class="">The Merry Go Round of Pokemon</h1>
+            <p class="">
+                For your viewing pleasure, we have a carousel of five random pokemon chosen from the original list of 152. This selection has been curated by our team of experts, and by experts we mean the people who have never traded and card or know anything about Pokemon. Enjoy!
+            </p>
+        </div>
+    </div>     
+             
+
+    <div id="pokemonCarousel" class="carousel slide rounded-3" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="container" style="max-width: 15rem;">
+                    <div class="row">
+                        <div class="col">
+                            <div class="header_card" style="width: 18rem;">
+                                <img src="images/mew.png" class="card-img-top" alt="Mew">
+                                <div class="card-body">
+                                    <h4 class="card-title">Mew</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container" style="max-width: 15rem;">
+                    <div class="row">
+                        <div class="col">
+                            <div class="header_card" style="width: 15rem;">
+                                <img src="images/war1.png" class="card-img-top" alt="Wartortle">
+                                <div class="card-body">
+                                    <h4 class="card-title">Wartortle</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container" style="max-width: 18rem;">
+                    <div class="row">
+                        <div class="col">
+                            <div class="header_card" style="width: 15rem;">
+                                <img src="images/pidgeot.png" class="card-img-top" alt="Pidgeot">
+                                <div class="card-body">
+                                    <h4 class="card-title">Pidgeot</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container" style="max-width: 19rem;">
+                    <div class="row">
+                        <div class="col">
+                            <div class="header_card" style="width: 15rem;">
+                                <img src="images/alakazam.png" class="card-img-top" alt="Alakazam">
+                                <div class="card-body">
+                                    <h4 class="card-title">Alakazam </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#pokemonCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#pokemonCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="container">
+        <h1 class="search-title">Pokemon Search</h1>
+        <div id="pokemon-info">
+            <form id="pokemon-form">
+                <label for="search-pokemon"><h4>Wanna know more about anymore about these little monsters? </h4></label>
+                <input type="text" id="search-pokemon" name="search-pokemon">
+                <button id="search-button" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="pokeHome.js"></script>
+</body>
